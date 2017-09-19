@@ -1,0 +1,14 @@
+request:
+  url: http://EUREKA-CLIENT/eureka-client/info
+
+
+server:
+  port: 8083
+  context-path: /
+spring:
+  application:
+    name: robbon-demo
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8761/eureka/

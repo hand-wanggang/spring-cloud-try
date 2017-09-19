@@ -1,0 +1,22 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+---
+spring:
+  profiles: client_1
+  application:
+    name: eureka-client
+server:
+  port: 8081
+  context-path: /eureka-client
+---
+spring:
+  profiles: client_2
+  application:
+    name: eureka-client
+server:
+  port: 8082
+  context-path: /eureka-client
