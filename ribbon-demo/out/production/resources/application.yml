@@ -4,7 +4,6 @@ request:
 
 server:
   port: 8083
-  context-path: /
 spring:
   application:
     name: robbon-demo

@@ -1,0 +1,16 @@
+server:
+  port: 8085
+  context-path: /server-config
+spring:
+  application:
+    name: server-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hand-wanggang/CloudConfig  #git \u4ED3\u5E93\u5730\u5740
+          #username: # git \u7528\u6237\u540D
+          #password: # git \u4ED3\u5E93\u5BC6\u7801
+          search-paths: '{profile}'
+        bootstrap: true
+      #\u914D\u7F6E\u4ED3\u5E93\u7684\u5206\u652F

@@ -4,6 +4,17 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/config-client" />
+        <option name="gradleHome" value="D:/WorkSoft/gradle-4.1-bin/gradle-4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/config-client" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-client" />
         <option name="gradleHome" value="D:/WorkSoft/gradle-4.1-bin/gradle-4.1" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -12,7 +23,6 @@
             <option value="$PROJECT_DIR$/eureka-client" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
@@ -26,15 +36,38 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ribbon-demo" />
         <option name="gradleHome" value="D:/WorkSoft/gradle-4.1-bin/gradle-4.1" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/ribbon-demo" />
           </set>
         </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/server-config" />
+        <option name="gradleHome" value="D:/WorkSoft/gradle-4.1-bin/gradle-4.1" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/server-config" />
+          </set>
+        </option>
         <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/service-zuul" />
+        <option name="gradleHome" value="D:/WorkSoft/gradle-4.1-bin/gradle-4.1" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/service-zuul" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>

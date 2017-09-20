@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-client_main.iml" group="config-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-client_test.iml" group="config-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client_main.iml" group="eureka-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client_test.iml" group="eureka-client" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" group="eureka-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" group="eureka-server" />
-      <module fileurl="file://$PROJECT_DIR$/ribbon-demo/ribbon-demo.iml" filepath="$PROJECT_DIR$/ribbon-demo/ribbon-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ribbon-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/ribbon-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ribbon-demo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ribbon-demo_main.iml" group="ribbon-demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ribbon-demo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ribbon-demo_test.iml" group="ribbon-demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-config.iml" filepath="$PROJECT_DIR$/.idea/modules/server-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server-config_main.iml" group="server-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server-config_test.iml" group="server-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul_main.iml" group="service-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul_test.iml" group="service-zuul" />
     </modules>
   </component>
 </project>

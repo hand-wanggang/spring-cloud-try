@@ -36,16 +36,17 @@ public class RobbonRequestController {
 
 	@RequestMapping("/request")
 	@HystrixCommand(fallbackMethod = "hasError")
-	public String requestServerInfo(){
-		FileSystemResource resource = new FileSystemResource(new File("C:\\Users\\deep\\Desktop\\excel\\FndMessage.xlsx"));
+	public String requestServerInfo() {
+		FileSystemResource resource = new FileSystemResource(
+				new File("C:\\Users\\deep\\Desktop\\excel\\FndMessage.xlsx"));
 		MultiValueMap<String, Object> param = new LinkedMultiValueMap<>();
 		param.add("attachments", resource);
 		param.add("id", 10000L);
-		param.add("subject","send file by email");
-		return restTemplate.postForObject(requestUrl,param,String.class);
+		param.add("subject", "send file by email");
+		return restTemplate.postForObject(requestUrl, param, String.class);
 	}
 
-	public String hasError(){
+	public String hasError() {
 		return "sorry! error!";
 	}
 }

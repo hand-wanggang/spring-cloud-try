@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8084
+  context-path: /zuul
+spring:
+  application:
+    name: service-zuul
+zuul:
+  routes:
+    ribbon-demo:
+      path: /api-erobbon/**
+      serviceId: robbon-demo
+    eureka-client:
+      path: /api-eclient/**
+      serviceId: eureka-client
